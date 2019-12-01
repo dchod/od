@@ -1,0 +1,50 @@
+$color-clouds:             #ecf0f1;
+$color-silver:             #bdc3c7;
+
+form {
+  width: 100%;
+  margin-bottom: 15px;
+
+  input {
+
+  }
+}
+
+table {
+  width: 100%;
+
+  thead th,
+  tbody td {
+    padding: 3px 5px;
+    border: 1px solid $color-silver;
+  }
+
+  thead {
+    tr {
+      background-color: $color-clouds;
+
+      th {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:hover {
+        td {
+          background-color: $color-silver;
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  margin-top: 15px;
+}
+
+main {
+  padding: 15px 0;
+}
